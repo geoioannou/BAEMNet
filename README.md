@@ -22,4 +22,4 @@ python run.py
 
 ## Example
 
-You can run the `BAEMNet_example.ipynb` to test and experiment with the BAEMNet archtecture and extract attributions along with the Captum library.
+You can run the `BAEMNet_example.ipynb` to test and experiment with the BAEMNet architecture and extract attributions along with the Captum library.
