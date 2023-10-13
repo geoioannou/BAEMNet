@@ -15,9 +15,9 @@ This is the code for the experiments of the paper with title "The Issue of Basel
 ## Instructions to run the code
 
 Run the following command to start the experiment regarding the accuracy of Shapley values. It is recommended to use a GPU to accelerate the computations
-'''
+```
 python run.py
-'''
+```
 
 
 ## Example
