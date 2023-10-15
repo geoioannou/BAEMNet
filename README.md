@@ -14,11 +14,11 @@ This is the code for the experiments of the paper with title "The Issue of Basel
 
 ## Instructions to run the code
 
-Run the following command to start the experiment regarding the accuracy of Shapley values. It is recommended to use a GPU to accelerate the computations
+Run the following command to start the experiment regarding the accuracy of Shapley values. `--datasets` is used to specify which dataset to use for the experiment (available datasets adult, heloc, german, compas), `--name` is used to set the name of the results file and `dev` is used to set the device to run the code (cpu or cuda). 
 ```
-python run.py
+python run.py --datasets adult compas --name shap_losses --dev cuda:0
 ```
-
+It is recommended to use a GPU to accelerate the computations.
 
 ## Example
 
